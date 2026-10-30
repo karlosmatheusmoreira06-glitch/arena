@@ -5,8 +5,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 60px 20px 0 20px;
+  padding: 60px 0 0 0; /* Remove os paddings laterais (esquerda/direita) do container pai */
   box-sizing: border-box;
+}
+
+/* Os conteúdos centrais (header, formulário e mensagem de feedback) mantêm o limite de largura */
+.cadastro-header,
+.form-card,
+.feedback-card {
+  width: 90%;
+  max-width: 620px;
 }
 
 .cadastro-header {
@@ -140,7 +148,7 @@ input:focus, select:focus {
 
 /* Rodapé */
 .cadastro-footer {
-  margin-top: auto;
+  margin-top: 60px;
   width: 100%;
   padding: 24px 40px;
   background-color: var(--azul-petroleo-escuro);

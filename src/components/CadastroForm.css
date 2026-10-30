@@ -1,0 +1,152 @@
+.cadastro-section {
+  background-color: var(--turquesa);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px 0 20px;
+  box-sizing: border-box;
+}
+
+.cadastro-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tagline-cadastro {
+  color: var(--amarelo-areia);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.titulo-cadastro {
+  color: var(--branco);
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+/* Card do Formulário */
+.form-card {
+  background-color: var(--branco);
+  width: 100%;
+  max-width: 620px;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px var(--sombra-formulario);
+  box-sizing: border-box;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.form-group.full-width {
+  width: 100%;
+}
+
+label {
+  color: var(--verde-escuro-suave);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--bege-formulario);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: var(--azul-petroleo-escuro);
+  background-color: var(--branco-quente);
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input::placeholder {
+  color: #a0aab0;
+}
+
+input:focus, select:focus {
+  border-color: var(--turquesa);
+  box-shadow: 0 0 0 3px var(--turquesa-15);
+}
+
+.btn-submit {
+  background-color: var(--coral);
+  color: var(--branco);
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+  background-color: var(--coral-escuro);
+}
+
+/* Cartões de Mensagem Visual (Feedback) */
+.feedback-card {
+  width: 100%;
+  max-width: 620px;
+  margin-top: 20px;
+  padding: 14px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.feedback-sucesso {
+  background-color: var(--verde-sucesso);
+  color: var(--verde-escuro);
+  border: 1px solid var(--verde-escuro);
+}
+
+.feedback-erro {
+  background-color: var(--vermelho-muito-claro);
+  color: var(--vermelho-queimado);
+  border: 1px solid var(--vermelho-queimado);
+}
+
+.feedback-icon {
+  font-size: 1.1rem;
+}
+
+/* Rodapé */
+.cadastro-footer {
+  margin-top: auto;
+  width: 100%;
+  padding: 24px 40px;
+  background-color: var(--azul-petroleo-escuro);
+  color: var(--branco-60);
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  box-sizing: border-box;
+}

@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: var(--bege-areia);
+  border-bottom: 1px solid var(--bege-mendio);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.logo-dark {
+  color: var(--azul-petroleo-escuro);
+}
+
+.logo-teal {
+  color: var(--turquesa);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-item {
+  background: none;
+  border: none;
+  color: var(--cinza-petroleo);
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.nav-item:hover {
+  color: var(--azul-petroleo-escuro);
+}
+
+.nav-item.ativo {
+  font-weight: 700;
+  color: var(--azul-petroleo-escuro);
+  border-bottom: 2px solid var(--turquesa);
+}
+
+.btn-cadastro-nav {
+  background-color: var(--turquesa);
+  color: var(--branco);
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-cadastro-nav:hover {
+  background-color: var(--turquesa-escuro);
+}

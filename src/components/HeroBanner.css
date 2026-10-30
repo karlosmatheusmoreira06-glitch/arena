@@ -1,0 +1,69 @@
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px;
+  background-color: var(--bege-areia);
+  min-height: calc(100vh - 80px);
+}
+
+.hero-text-section {
+  max-width: 500px;
+}
+
+.tagline {
+  color: var(--turquesa);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.hero-title {
+  color: var(--azul-petroleo-escuro);
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 24px;
+}
+
+.hero-description {
+  color: var(--cinza-petroleo-mendio);
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin-bottom: 36px;
+}
+
+.btn-cta {
+  background-color: var(--coral);
+  color: var(--branco);
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-cta:hover {
+  background-color: var(--coral-escuro);
+}
+
+.hero-image-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 600px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid var(--bege-claro);
+  box-shadow: 0 10px 25px var(--sombra-formulario);
+}

@@ -1,0 +1,61 @@
+:root {
+  /* Cores Principais */
+  --azul-petroleo-escuro: #123D42;
+  --turquesa: #0F858B;
+  --turquesa-escuro: #0C7277;
+  --coral: #F47B53;
+  --coral-escuro: #DF6842;
+  --amarelo-areia: #FFE093;
+
+  /* Tons de Areia e Fundos */
+  --branco-quente: #FFFDF8;
+  --bege-areia: #F6EDDA;
+  --bege-claro: #E5DCC9;
+  --bege-mendio: #E6DCC6;
+  --bege-formulario: #D9D1C0;
+
+  /* Textos Secundários */
+  --cinza-petroleo: #53686A;
+  --cinza-petroleo-mendio: #596D6F;
+  --cinza-esverdeado: #617274;
+  --verde-escuro-suave: #294E52;
+
+  /* Fundos Suaves */
+  --verde-agua-claro: #DFF2EE;
+  --verde-sucesso: #E4F5EF;
+  --vermelho-muito-claro: #FFF0EC;
+
+  /* Estados de Feedback */
+  --verde-escuro: #17614C;
+  --vermelho-queimado: #A13F2B;
+
+  /* Cores Básicas e Transparências */
+  --branco: #FFFFFF;
+  --branco-60: rgba(255, 255, 255, 0.6);
+  --turquesa-15: rgba(15, 133, 139, 0.15);
+  --sombra-formulario: rgba(0, 0, 0, 0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--branco-quente);
+  color: var(--azul-petroleo-escuro);
+}
+
+.hero-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-secao {
+  padding: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
